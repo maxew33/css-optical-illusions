@@ -1,0 +1,35 @@
+.optical-illusion-4 {
+    position: relative;
+    height: 90vmin;
+    width: 90vmin;
+    background: black;
+
+    .container-lines {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: inherit;
+        height: inherit;
+
+        .line {
+            height: 3.5vmin;
+            width: inherit;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            .white-spot {
+                height: 4.8vmin;
+                width: 4.8vmin;
+                background: white;
+                border-radius: 999px;
+            }
+        }
+    }
+
+    .vertical-lines {
+        transform: rotate(90deg);
+    }
+}

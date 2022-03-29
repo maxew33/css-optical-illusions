@@ -1,0 +1,132 @@
+.optical-illusion-1 {
+  height: 90vmin;
+  width: 90vmin;
+  position: relative;
+}
+.optical-illusion-1 .line-container {
+  height: 10vmin;
+  width: 27.5vmin;
+  position: absolute;
+  top: 42.5vmin;
+  left: 10vmin;
+  display: flex;
+  align-items: center;
+  transform-origin: 37.5vmin center;
+}
+.optical-illusion-1 .line-container .line {
+  position: relative;
+  width: 50%;
+  height: 2.5px;
+}
+.optical-illusion-1 .line-container .line .line-edge {
+  position: absolute;
+}
+.optical-illusion-1 .line-container .line .line-edge .edge-bottom {
+  position: absolute;
+  top: 1.25px;
+  height: 2.5vh;
+  width: 2.5px;
+  background: black;
+  transform-origin: top;
+  transform: rotate(60deg);
+}
+.optical-illusion-1 .line-container .line .line-edge .edge-top {
+  position: absolute;
+  top: calc(1.25px - 2.5vh);
+  height: 2.5vh;
+  width: 2.5px;
+  background: black;
+  transform-origin: bottom;
+  transform: rotate(-60deg);
+}
+.optical-illusion-1 .line-container .lineA {
+  background: blue;
+  z-index: 2;
+}
+.optical-illusion-1 .line-container .lineA .edge-B {
+  right: 2.5px;
+}
+.optical-illusion-1 .line-container .lineB {
+  background: red;
+}
+.optical-illusion-1 .line-container .lineB .edge-A {
+  right: 0;
+}
+.optical-illusion-1 .edge-A .edge-top {
+  -webkit-animation: 2s linear alternate infinite first-rotation;
+          animation: 2s linear alternate infinite first-rotation;
+}
+.optical-illusion-1 .edge-A .edge-bottom {
+  -webkit-animation: 2s linear alternate infinite second-rotation;
+          animation: 2s linear alternate infinite second-rotation;
+}
+.optical-illusion-1 .edge-B .edge-bottom {
+  -webkit-animation: 2s linear alternate infinite first-rotation;
+          animation: 2s linear alternate infinite first-rotation;
+}
+.optical-illusion-1 .edge-B .edge-top {
+  -webkit-animation: 2s linear alternate infinite second-rotation;
+          animation: 2s linear alternate infinite second-rotation;
+}
+@-webkit-keyframes first-rotation {
+  0%, 25% {
+    transform: rotate(60deg);
+  }
+  75%, 100% {
+    transform: rotate(-60deg);
+  }
+}
+@keyframes first-rotation {
+  0%, 25% {
+    transform: rotate(60deg);
+  }
+  75%, 100% {
+    transform: rotate(-60deg);
+  }
+}
+@-webkit-keyframes second-rotation {
+  0%, 25% {
+    transform: rotate(-60deg);
+  }
+  75%, 100% {
+    transform: rotate(60deg);
+  }
+}
+@keyframes second-rotation {
+  0%, 25% {
+    transform: rotate(-60deg);
+  }
+  75%, 100% {
+    transform: rotate(60deg);
+  }
+}
+.optical-illusion-1 .line-container:nth-child(1) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(36deg);
+}
+.optical-illusion-1 .line-container:nth-child(2) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(72deg);
+}
+.optical-illusion-1 .line-container:nth-child(3) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(108deg);
+}
+.optical-illusion-1 .line-container:nth-child(4) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(144deg);
+}
+.optical-illusion-1 .line-container:nth-child(5) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(180deg);
+}
+.optical-illusion-1 .line-container:nth-child(6) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(216deg);
+}
+.optical-illusion-1 .line-container:nth-child(7) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(252deg);
+}
+.optical-illusion-1 .line-container:nth-child(8) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(288deg);
+}
+.optical-illusion-1 .line-container:nth-child(9) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(324deg);
+}
+.optical-illusion-1 .line-container:nth-child(10) {
+  transform: translate(calc(50% - 13.75vmin)) rotate(360deg);
+}/*# sourceMappingURL=optical-illusion-1.css.map */

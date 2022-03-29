@@ -1,0 +1,57 @@
+.optical-illusion-3 {
+  height: 90vmin;
+  width: 90vmin;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.optical-illusion-3 .oblique-line {
+  width: 130vmin;
+  height: 1vmin;
+  background: black;
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.optical-illusion-3 .oblique-line .hatching {
+  height: 10vmin;
+  width: 1.5vmin;
+  background: black;
+}
+.optical-illusion-3 .oblique-line:not(:first-child) {
+  margin-top: 15vmin;
+}
+.optical-illusion-3 .oblique-line:nth-child(odd) .hatching {
+  transform: rotate(45deg);
+  -webkit-animation: hatching-rotation 2s linear alternate infinite;
+          animation: hatching-rotation 2s linear alternate infinite;
+}
+.optical-illusion-3 .oblique-line:nth-child(even) .hatching {
+  transform: rotate(-45deg);
+  -webkit-animation: hatching-rotation 2s linear alternate infinite;
+          animation: hatching-rotation 2s linear alternate infinite;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+@-webkit-keyframes hatching-rotation {
+  0%, 33% {
+    transform: rotate(45deg);
+  }
+  66%, 100% {
+    transform: rotate(-45deg);
+  }
+}
+@keyframes hatching-rotation {
+  0%, 33% {
+    transform: rotate(45deg);
+  }
+  66%, 100% {
+    transform: rotate(-45deg);
+  }
+}/*# sourceMappingURL=optical-illusion-3.css.map */

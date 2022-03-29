@@ -1,0 +1,59 @@
+.optical-illusion-3 {
+    height: 90vmin;
+    width: 90vmin;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .oblique-line {
+        width: 130vmin;
+        height: 1vmin;
+        background: black;
+        transform: rotate(45deg);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .hatching {
+            height: 10vmin;
+            width: 1.5vmin;
+            background: black;
+        }
+    }
+
+    .oblique-line:not(:first-child) {
+        margin-top: 15vmin;
+    }
+
+    .oblique-line:nth-child(odd) {
+        .hatching {
+            transform: rotate(45deg);
+            animation: hatching-rotation 2s linear alternate infinite;
+        }
+    }
+
+    .oblique-line:nth-child(even) {
+        .hatching {
+            transform: rotate(-45deg);
+            animation: hatching-rotation 2s linear alternate infinite;
+            animation-delay: -2s;
+        }
+    }
+
+    @keyframes hatching-rotation {
+        0%,
+        33% {
+            transform: rotate(45deg);
+        }
+
+        66%,
+        100% {
+            transform: rotate(-45deg);
+        }
+    }
+}

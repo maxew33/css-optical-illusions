@@ -1,0 +1,107 @@
+.optical-illusion-1 {
+    height: 90vmin;
+    width: 90vmin;
+    position: relative;
+
+    .line-container {
+        height: 10vmin;
+        width: 27.5vmin;
+        position: absolute;
+        top: 42.5vmin;
+        left: 10vmin;
+        display: flex;
+        align-items: center;
+        transform-origin: 37.5vmin center;
+
+        .line {
+            position: relative;
+            width: 50%;
+            height: 2.5px;
+
+            .line-edge {
+                position: absolute;
+
+                .edge-bottom {
+                    position: absolute;
+                    top: 1.25px;
+                    height: 2.5vh;
+                    width: 2.5px;
+                    background: black;
+                    transform-origin: top;
+                    transform: rotate(60deg);
+                }
+
+                .edge-top {
+                    position: absolute;
+                    top: calc(1.25px - 2.5vh);
+                    height: 2.5vh;
+                    width: 2.5px;
+                    background: black;
+                    transform-origin: bottom;
+                    transform: rotate(-60deg);
+                }
+            }
+        }
+
+        .lineA {
+            background: blue;
+            z-index: 2;
+            .edge-B {
+                right: 2.5px;
+            }
+        }
+
+        .lineB {
+            background: red;
+            .edge-A {
+                right: 0;
+            }
+        }
+    }
+
+    .edge-A {
+        .edge-top {
+            animation: 2s linear alternate infinite first-rotation;
+        }
+        .edge-bottom {
+            animation: 2s linear alternate infinite second-rotation;
+        }
+    }
+
+    .edge-B {
+        .edge-bottom {
+            animation: 2s linear alternate infinite first-rotation;
+        }
+        .edge-top {
+            animation: 2s linear alternate infinite second-rotation;
+        }
+    }
+
+    @keyframes first-rotation {
+        0%,
+        25% {
+            transform: rotate(60deg);
+        }
+        75%,
+        100% {
+            transform: rotate(-60deg);
+        }
+    }
+
+    @keyframes second-rotation {
+        0%,
+        25% {
+            transform: rotate(-60deg);
+        }
+        75%,
+        100% {
+            transform: rotate(60deg);
+        }
+    }
+
+    @for $i from 1 through 10 {
+        .line-container:nth-child(#{$i}) {
+            transform: translate(calc(50% - 13.75vmin)) rotate(36deg * $i);
+        }
+    }
+}

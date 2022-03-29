@@ -1,0 +1,57 @@
+.optical-illusion-7{
+
+    $diam: calc(max(90vmin, 512px) / 30);
+    $sectionSize: max(90vmin, 512px);
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: $sectionSize;
+    width: $sectionSize;
+    background: #80B300;
+    padding: .5vmin;
+  
+  
+  .circles-container{
+      height: calc($sectionSize / 20);
+      width: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  
+      .circle{
+          position: relative;
+          left: calc(max(90vmin, 512px) / -200);
+          height: $diam;
+          width: $diam;
+          border-radius: 999px;
+          background: #222;
+          &::after, &::before{
+              content: "";
+              position: absolute;
+              height: $diam;
+              width: $diam;
+              border-radius: 999px;
+          }
+          &::after{
+              left: calc(max(90vmin, 512px) / 200);
+              background: blue;
+          }
+          &::before{
+              left: calc(max(90vmin, 512px) / 100);
+              background: #ddd;
+          }
+      }
+  }
+  
+  @for $i from 1 through 20{
+    .circles-container:nth-child(#{$i}){
+      @for $j from 1 through 20{
+        .circle:nth-child(#{$j}){
+          transform: rotate($j * (($i * 5) + 12deg));
+        }
+      }
+    }
+  }
+}

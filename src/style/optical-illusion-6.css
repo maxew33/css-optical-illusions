@@ -1,0 +1,114 @@
+.optical-illusion-6 {
+  height: 90vmin;
+  width: 90vmin;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.optical-illusion-6 .circle {
+  position: absolute;
+  left: 10vmin;
+  height: 15vmin;
+  width: 15vmin;
+  border-radius: 999px;
+  background: radial-gradient(#ff75f8 25%, #ddd 50%, #ddd);
+  transform-origin: 35vmin 7.5vmin;
+  -webkit-animation: disappear 1.5s linear infinite;
+          animation: disappear 1.5s linear infinite;
+}
+.optical-illusion-6 .circle:nth-child(1) {
+  transform: rotate(30deg);
+  -webkit-animation-delay: 0.125s;
+          animation-delay: 0.125s;
+}
+.optical-illusion-6 .circle:nth-child(2) {
+  transform: rotate(60deg);
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+.optical-illusion-6 .circle:nth-child(3) {
+  transform: rotate(90deg);
+  -webkit-animation-delay: 0.375s;
+          animation-delay: 0.375s;
+}
+.optical-illusion-6 .circle:nth-child(4) {
+  transform: rotate(120deg);
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.optical-illusion-6 .circle:nth-child(5) {
+  transform: rotate(150deg);
+  -webkit-animation-delay: 0.625s;
+          animation-delay: 0.625s;
+}
+.optical-illusion-6 .circle:nth-child(6) {
+  transform: rotate(180deg);
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+.optical-illusion-6 .circle:nth-child(7) {
+  transform: rotate(210deg);
+  -webkit-animation-delay: 0.875s;
+          animation-delay: 0.875s;
+}
+.optical-illusion-6 .circle:nth-child(8) {
+  transform: rotate(240deg);
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+.optical-illusion-6 .circle:nth-child(9) {
+  transform: rotate(270deg);
+  -webkit-animation-delay: 1.125s;
+          animation-delay: 1.125s;
+}
+.optical-illusion-6 .circle:nth-child(10) {
+  transform: rotate(300deg);
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+.optical-illusion-6 .circle:nth-child(11) {
+  transform: rotate(330deg);
+  -webkit-animation-delay: 1.375s;
+          animation-delay: 1.375s;
+}
+.optical-illusion-6 .circle:nth-child(12) {
+  transform: rotate(360deg);
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+@-webkit-keyframes disappear {
+  0.01%, 8.3% {
+    opacity: 0;
+  }
+  0%, 8.31%, 100% {
+    opacity: 1;
+  }
+}
+@keyframes disappear {
+  0.01%, 8.3% {
+    opacity: 0;
+  }
+  0%, 8.31%, 100% {
+    opacity: 1;
+  }
+}
+.optical-illusion-6 .cross {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 5vmin;
+  width: 5vmin;
+}
+.optical-illusion-6 .cross::after, .optical-illusion-6 .cross::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1.5px);
+  left: calc(50% - 2.5vmin);
+  width: inherit;
+  height: 3px;
+  background: #222;
+}
+.optical-illusion-6 .cross::after {
+  transform: rotate(90deg);
+}/*# sourceMappingURL=optical-illusion-6.css.map */

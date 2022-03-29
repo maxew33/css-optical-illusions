@@ -1,0 +1,48 @@
+.optical-illusion-5 {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vmin;
+    width: 90vmin;
+    background: #97acee;
+    padding: 0 5vmin;
+
+    .vertical-lines {
+        height: 90vmin;
+        border: 2px solid #222;
+    }
+
+    .bothering-lines-container {
+        position: absolute;
+        height: 90vmin;
+        width: 90vmin;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .bothering-line {
+            position: absolute;
+            width: 100vw;
+            border: 1px solid #222;
+            animation: apparition 5s linear infinite;
+        }
+
+        @for $i from 1 through 30 {
+            .bothering-line:nth-child(#{$i}) {
+                transform: rotate(77.5deg - (5deg * $i));
+                animation-delay: 1s - ($i * 0.015);
+            }
+        }
+    }
+
+    @keyframes apparition {
+        0%,
+        59% {
+            opacity: 1;
+        }
+        60%,
+        100% {
+            opacity: 0;
+        }
+    }
+}

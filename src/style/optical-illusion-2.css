@@ -1,0 +1,82 @@
+.optical-illusion-2 {
+  height: 90vmin;
+  width: 90vmin;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.optical-illusion-2 .circle-container {
+  height: 45vmin;
+  width: 45vmin;
+  position: relative;
+}
+.optical-illusion-2 .center-circle {
+  position: absolute;
+  height: 8vmin;
+  width: 8vmin;
+  background: #e61a1a;
+  top: 18.5vmin;
+  left: 18.5vmin;
+  border-radius: 100vmin;
+}
+.optical-illusion-2 .around-circle-container {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  left: 0;
+  transform-origin: center right;
+  display: grid;
+  place-content: center;
+  padding-right: 5vmin;
+}
+.optical-illusion-2 .around-circle-container .bothering-ball {
+  height: 12.5vmin;
+  width: 12.5vmin;
+  background: #e6801a;
+  border-radius: 999px;
+  -webkit-animation: bother 3s linear alternate infinite;
+          animation: bother 3s linear alternate infinite;
+}
+.optical-illusion-2 .first-container .bothering-ball {
+  -webkit-animation-delay: -1.5s;
+          animation-delay: -1.5s;
+}
+.optical-illusion-2 .second-container .bothering-ball {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+@-webkit-keyframes bother {
+  0%, 33% {
+    transform: translateX(0) scale(1);
+  }
+  66%, 100% {
+    transform: translateX(7.5vmin) scale(0.35);
+  }
+}
+@keyframes bother {
+  0%, 33% {
+    transform: translateX(0) scale(1);
+  }
+  66%, 100% {
+    transform: translateX(7.5vmin) scale(0.35);
+  }
+}
+.optical-illusion-2 .around-circle-container:nth-child(2) {
+  transform: rotate(150deg);
+}
+.optical-illusion-2 .around-circle-container:nth-child(3) {
+  transform: rotate(210deg);
+}
+.optical-illusion-2 .around-circle-container:nth-child(4) {
+  transform: rotate(270deg);
+}
+.optical-illusion-2 .around-circle-container:nth-child(5) {
+  transform: rotate(330deg);
+}
+.optical-illusion-2 .around-circle-container:nth-child(6) {
+  transform: rotate(390deg);
+}
+.optical-illusion-2 .around-circle-container:nth-child(7) {
+  transform: rotate(450deg);
+}/*# sourceMappingURL=optical-illusion-2.css.map */

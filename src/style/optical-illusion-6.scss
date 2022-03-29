@@ -1,0 +1,60 @@
+.optical-illusion-6{
+    height: 90vmin;
+    width: 90vmin;
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+    $animationDuration: 1.5s;
+  
+    .circle{
+        position: absolute;
+        left: 10vmin;
+        height: 15vmin;
+        width: 15vmin;
+        border-radius: 999px;
+        background: radial-gradient(hsl(303deg, 100%, 73%) 25%, #ddd 50%, #ddd);
+        transform-origin: 35vmin 7.5vmin;
+        animation: disappear $animationDuration linear infinite;
+    }
+  
+    @for $i from 1 through 12{
+        .circle:nth-child(#{$i}){
+            transform: rotate($i * 30deg);
+            animation-delay: $animationDuration / 12 * $i;
+  
+        }
+    }
+  
+    @keyframes disappear{
+        0.01%, 8.3%{
+            opacity: 0;
+        }
+        0%, 8.31%, 100%{
+            opacity: 1;
+        }
+    }
+  
+  .cross{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 5vmin;
+      width: 5vmin;
+  
+      &::after,
+      &::before{
+          content:"";
+          position: absolute;
+          top: calc(50% - 1.5px);
+          left: calc(50% - 2.5vmin);
+          width: inherit;
+          height: 3px;
+          background: #222;
+      }
+      &::after{
+          transform: rotate(90deg);
+      }
+  }
+  }

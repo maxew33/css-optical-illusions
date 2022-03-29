@@ -1,0 +1,1240 @@
+.optical-illusion-7 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: max(90vmin, 512px);
+  width: max(90vmin, 512px);
+  background: #80B300;
+  padding: 0.5vmin;
+}
+.optical-illusion-7 .circles-container {
+  height: calc(max(90vmin, 512px) / 20);
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.optical-illusion-7 .circles-container .circle {
+  position: relative;
+  left: calc(max(90vmin, 512px) / -200);
+  height: calc(max(90vmin, 512px) / 30);
+  width: calc(max(90vmin, 512px) / 30);
+  border-radius: 999px;
+  background: #222;
+}
+.optical-illusion-7 .circles-container .circle::after, .optical-illusion-7 .circles-container .circle::before {
+  content: "";
+  position: absolute;
+  height: calc(max(90vmin, 512px) / 30);
+  width: calc(max(90vmin, 512px) / 30);
+  border-radius: 999px;
+}
+.optical-illusion-7 .circles-container .circle::after {
+  left: calc(max(90vmin, 512px) / 200);
+  background: blue;
+}
+.optical-illusion-7 .circles-container .circle::before {
+  left: calc(max(90vmin, 512px) / 100);
+  background: #ddd;
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(1) {
+  transform: rotate(17deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(2) {
+  transform: rotate(34deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(3) {
+  transform: rotate(51deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(4) {
+  transform: rotate(68deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(5) {
+  transform: rotate(85deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(6) {
+  transform: rotate(102deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(7) {
+  transform: rotate(119deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(8) {
+  transform: rotate(136deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(9) {
+  transform: rotate(153deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(10) {
+  transform: rotate(170deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(11) {
+  transform: rotate(187deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(12) {
+  transform: rotate(204deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(13) {
+  transform: rotate(221deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(14) {
+  transform: rotate(238deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(15) {
+  transform: rotate(255deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(16) {
+  transform: rotate(272deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(17) {
+  transform: rotate(289deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(18) {
+  transform: rotate(306deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(19) {
+  transform: rotate(323deg);
+}
+.optical-illusion-7 .circles-container:nth-child(1) .circle:nth-child(20) {
+  transform: rotate(340deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(1) {
+  transform: rotate(22deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(2) {
+  transform: rotate(44deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(3) {
+  transform: rotate(66deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(4) {
+  transform: rotate(88deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(5) {
+  transform: rotate(110deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(6) {
+  transform: rotate(132deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(7) {
+  transform: rotate(154deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(8) {
+  transform: rotate(176deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(9) {
+  transform: rotate(198deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(10) {
+  transform: rotate(220deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(11) {
+  transform: rotate(242deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(12) {
+  transform: rotate(264deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(13) {
+  transform: rotate(286deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(14) {
+  transform: rotate(308deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(15) {
+  transform: rotate(330deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(16) {
+  transform: rotate(352deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(17) {
+  transform: rotate(374deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(18) {
+  transform: rotate(396deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(19) {
+  transform: rotate(418deg);
+}
+.optical-illusion-7 .circles-container:nth-child(2) .circle:nth-child(20) {
+  transform: rotate(440deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(1) {
+  transform: rotate(27deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(2) {
+  transform: rotate(54deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(3) {
+  transform: rotate(81deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(4) {
+  transform: rotate(108deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(5) {
+  transform: rotate(135deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(6) {
+  transform: rotate(162deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(7) {
+  transform: rotate(189deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(8) {
+  transform: rotate(216deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(9) {
+  transform: rotate(243deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(10) {
+  transform: rotate(270deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(11) {
+  transform: rotate(297deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(12) {
+  transform: rotate(324deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(13) {
+  transform: rotate(351deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(14) {
+  transform: rotate(378deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(15) {
+  transform: rotate(405deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(16) {
+  transform: rotate(432deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(17) {
+  transform: rotate(459deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(18) {
+  transform: rotate(486deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(19) {
+  transform: rotate(513deg);
+}
+.optical-illusion-7 .circles-container:nth-child(3) .circle:nth-child(20) {
+  transform: rotate(540deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(1) {
+  transform: rotate(32deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(2) {
+  transform: rotate(64deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(3) {
+  transform: rotate(96deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(4) {
+  transform: rotate(128deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(5) {
+  transform: rotate(160deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(6) {
+  transform: rotate(192deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(7) {
+  transform: rotate(224deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(8) {
+  transform: rotate(256deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(9) {
+  transform: rotate(288deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(10) {
+  transform: rotate(320deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(11) {
+  transform: rotate(352deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(12) {
+  transform: rotate(384deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(13) {
+  transform: rotate(416deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(14) {
+  transform: rotate(448deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(15) {
+  transform: rotate(480deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(16) {
+  transform: rotate(512deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(17) {
+  transform: rotate(544deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(18) {
+  transform: rotate(576deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(19) {
+  transform: rotate(608deg);
+}
+.optical-illusion-7 .circles-container:nth-child(4) .circle:nth-child(20) {
+  transform: rotate(640deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(1) {
+  transform: rotate(37deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(2) {
+  transform: rotate(74deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(3) {
+  transform: rotate(111deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(4) {
+  transform: rotate(148deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(5) {
+  transform: rotate(185deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(6) {
+  transform: rotate(222deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(7) {
+  transform: rotate(259deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(8) {
+  transform: rotate(296deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(9) {
+  transform: rotate(333deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(10) {
+  transform: rotate(370deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(11) {
+  transform: rotate(407deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(12) {
+  transform: rotate(444deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(13) {
+  transform: rotate(481deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(14) {
+  transform: rotate(518deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(15) {
+  transform: rotate(555deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(16) {
+  transform: rotate(592deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(17) {
+  transform: rotate(629deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(18) {
+  transform: rotate(666deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(19) {
+  transform: rotate(703deg);
+}
+.optical-illusion-7 .circles-container:nth-child(5) .circle:nth-child(20) {
+  transform: rotate(740deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(1) {
+  transform: rotate(42deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(2) {
+  transform: rotate(84deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(3) {
+  transform: rotate(126deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(4) {
+  transform: rotate(168deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(5) {
+  transform: rotate(210deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(6) {
+  transform: rotate(252deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(7) {
+  transform: rotate(294deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(8) {
+  transform: rotate(336deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(9) {
+  transform: rotate(378deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(10) {
+  transform: rotate(420deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(11) {
+  transform: rotate(462deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(12) {
+  transform: rotate(504deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(13) {
+  transform: rotate(546deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(14) {
+  transform: rotate(588deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(15) {
+  transform: rotate(630deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(16) {
+  transform: rotate(672deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(17) {
+  transform: rotate(714deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(18) {
+  transform: rotate(756deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(19) {
+  transform: rotate(798deg);
+}
+.optical-illusion-7 .circles-container:nth-child(6) .circle:nth-child(20) {
+  transform: rotate(840deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(1) {
+  transform: rotate(47deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(2) {
+  transform: rotate(94deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(3) {
+  transform: rotate(141deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(4) {
+  transform: rotate(188deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(5) {
+  transform: rotate(235deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(6) {
+  transform: rotate(282deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(7) {
+  transform: rotate(329deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(8) {
+  transform: rotate(376deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(9) {
+  transform: rotate(423deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(10) {
+  transform: rotate(470deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(11) {
+  transform: rotate(517deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(12) {
+  transform: rotate(564deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(13) {
+  transform: rotate(611deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(14) {
+  transform: rotate(658deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(15) {
+  transform: rotate(705deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(16) {
+  transform: rotate(752deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(17) {
+  transform: rotate(799deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(18) {
+  transform: rotate(846deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(19) {
+  transform: rotate(893deg);
+}
+.optical-illusion-7 .circles-container:nth-child(7) .circle:nth-child(20) {
+  transform: rotate(940deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(1) {
+  transform: rotate(52deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(2) {
+  transform: rotate(104deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(3) {
+  transform: rotate(156deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(4) {
+  transform: rotate(208deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(5) {
+  transform: rotate(260deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(6) {
+  transform: rotate(312deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(7) {
+  transform: rotate(364deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(8) {
+  transform: rotate(416deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(9) {
+  transform: rotate(468deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(10) {
+  transform: rotate(520deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(11) {
+  transform: rotate(572deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(12) {
+  transform: rotate(624deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(13) {
+  transform: rotate(676deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(14) {
+  transform: rotate(728deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(15) {
+  transform: rotate(780deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(16) {
+  transform: rotate(832deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(17) {
+  transform: rotate(884deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(18) {
+  transform: rotate(936deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(19) {
+  transform: rotate(988deg);
+}
+.optical-illusion-7 .circles-container:nth-child(8) .circle:nth-child(20) {
+  transform: rotate(1040deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(1) {
+  transform: rotate(57deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(2) {
+  transform: rotate(114deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(3) {
+  transform: rotate(171deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(4) {
+  transform: rotate(228deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(5) {
+  transform: rotate(285deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(6) {
+  transform: rotate(342deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(7) {
+  transform: rotate(399deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(8) {
+  transform: rotate(456deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(9) {
+  transform: rotate(513deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(10) {
+  transform: rotate(570deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(11) {
+  transform: rotate(627deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(12) {
+  transform: rotate(684deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(13) {
+  transform: rotate(741deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(14) {
+  transform: rotate(798deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(15) {
+  transform: rotate(855deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(16) {
+  transform: rotate(912deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(17) {
+  transform: rotate(969deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(18) {
+  transform: rotate(1026deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(19) {
+  transform: rotate(1083deg);
+}
+.optical-illusion-7 .circles-container:nth-child(9) .circle:nth-child(20) {
+  transform: rotate(1140deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(1) {
+  transform: rotate(62deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(2) {
+  transform: rotate(124deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(3) {
+  transform: rotate(186deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(4) {
+  transform: rotate(248deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(5) {
+  transform: rotate(310deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(6) {
+  transform: rotate(372deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(7) {
+  transform: rotate(434deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(8) {
+  transform: rotate(496deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(9) {
+  transform: rotate(558deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(10) {
+  transform: rotate(620deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(11) {
+  transform: rotate(682deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(12) {
+  transform: rotate(744deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(13) {
+  transform: rotate(806deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(14) {
+  transform: rotate(868deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(15) {
+  transform: rotate(930deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(16) {
+  transform: rotate(992deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(17) {
+  transform: rotate(1054deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(18) {
+  transform: rotate(1116deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(19) {
+  transform: rotate(1178deg);
+}
+.optical-illusion-7 .circles-container:nth-child(10) .circle:nth-child(20) {
+  transform: rotate(1240deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(1) {
+  transform: rotate(67deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(2) {
+  transform: rotate(134deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(3) {
+  transform: rotate(201deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(4) {
+  transform: rotate(268deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(5) {
+  transform: rotate(335deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(6) {
+  transform: rotate(402deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(7) {
+  transform: rotate(469deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(8) {
+  transform: rotate(536deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(9) {
+  transform: rotate(603deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(10) {
+  transform: rotate(670deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(11) {
+  transform: rotate(737deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(12) {
+  transform: rotate(804deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(13) {
+  transform: rotate(871deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(14) {
+  transform: rotate(938deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(15) {
+  transform: rotate(1005deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(16) {
+  transform: rotate(1072deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(17) {
+  transform: rotate(1139deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(18) {
+  transform: rotate(1206deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(19) {
+  transform: rotate(1273deg);
+}
+.optical-illusion-7 .circles-container:nth-child(11) .circle:nth-child(20) {
+  transform: rotate(1340deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(1) {
+  transform: rotate(72deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(2) {
+  transform: rotate(144deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(3) {
+  transform: rotate(216deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(4) {
+  transform: rotate(288deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(5) {
+  transform: rotate(360deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(6) {
+  transform: rotate(432deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(7) {
+  transform: rotate(504deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(8) {
+  transform: rotate(576deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(9) {
+  transform: rotate(648deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(10) {
+  transform: rotate(720deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(11) {
+  transform: rotate(792deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(12) {
+  transform: rotate(864deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(13) {
+  transform: rotate(936deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(14) {
+  transform: rotate(1008deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(15) {
+  transform: rotate(1080deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(16) {
+  transform: rotate(1152deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(17) {
+  transform: rotate(1224deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(18) {
+  transform: rotate(1296deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(19) {
+  transform: rotate(1368deg);
+}
+.optical-illusion-7 .circles-container:nth-child(12) .circle:nth-child(20) {
+  transform: rotate(1440deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(1) {
+  transform: rotate(77deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(2) {
+  transform: rotate(154deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(3) {
+  transform: rotate(231deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(4) {
+  transform: rotate(308deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(5) {
+  transform: rotate(385deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(6) {
+  transform: rotate(462deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(7) {
+  transform: rotate(539deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(8) {
+  transform: rotate(616deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(9) {
+  transform: rotate(693deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(10) {
+  transform: rotate(770deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(11) {
+  transform: rotate(847deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(12) {
+  transform: rotate(924deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(13) {
+  transform: rotate(1001deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(14) {
+  transform: rotate(1078deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(15) {
+  transform: rotate(1155deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(16) {
+  transform: rotate(1232deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(17) {
+  transform: rotate(1309deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(18) {
+  transform: rotate(1386deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(19) {
+  transform: rotate(1463deg);
+}
+.optical-illusion-7 .circles-container:nth-child(13) .circle:nth-child(20) {
+  transform: rotate(1540deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(1) {
+  transform: rotate(82deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(2) {
+  transform: rotate(164deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(3) {
+  transform: rotate(246deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(4) {
+  transform: rotate(328deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(5) {
+  transform: rotate(410deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(6) {
+  transform: rotate(492deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(7) {
+  transform: rotate(574deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(8) {
+  transform: rotate(656deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(9) {
+  transform: rotate(738deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(10) {
+  transform: rotate(820deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(11) {
+  transform: rotate(902deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(12) {
+  transform: rotate(984deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(13) {
+  transform: rotate(1066deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(14) {
+  transform: rotate(1148deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(15) {
+  transform: rotate(1230deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(16) {
+  transform: rotate(1312deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(17) {
+  transform: rotate(1394deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(18) {
+  transform: rotate(1476deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(19) {
+  transform: rotate(1558deg);
+}
+.optical-illusion-7 .circles-container:nth-child(14) .circle:nth-child(20) {
+  transform: rotate(1640deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(1) {
+  transform: rotate(87deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(2) {
+  transform: rotate(174deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(3) {
+  transform: rotate(261deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(4) {
+  transform: rotate(348deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(5) {
+  transform: rotate(435deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(6) {
+  transform: rotate(522deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(7) {
+  transform: rotate(609deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(8) {
+  transform: rotate(696deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(9) {
+  transform: rotate(783deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(10) {
+  transform: rotate(870deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(11) {
+  transform: rotate(957deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(12) {
+  transform: rotate(1044deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(13) {
+  transform: rotate(1131deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(14) {
+  transform: rotate(1218deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(15) {
+  transform: rotate(1305deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(16) {
+  transform: rotate(1392deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(17) {
+  transform: rotate(1479deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(18) {
+  transform: rotate(1566deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(19) {
+  transform: rotate(1653deg);
+}
+.optical-illusion-7 .circles-container:nth-child(15) .circle:nth-child(20) {
+  transform: rotate(1740deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(1) {
+  transform: rotate(92deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(2) {
+  transform: rotate(184deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(3) {
+  transform: rotate(276deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(4) {
+  transform: rotate(368deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(5) {
+  transform: rotate(460deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(6) {
+  transform: rotate(552deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(7) {
+  transform: rotate(644deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(8) {
+  transform: rotate(736deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(9) {
+  transform: rotate(828deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(10) {
+  transform: rotate(920deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(11) {
+  transform: rotate(1012deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(12) {
+  transform: rotate(1104deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(13) {
+  transform: rotate(1196deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(14) {
+  transform: rotate(1288deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(15) {
+  transform: rotate(1380deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(16) {
+  transform: rotate(1472deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(17) {
+  transform: rotate(1564deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(18) {
+  transform: rotate(1656deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(19) {
+  transform: rotate(1748deg);
+}
+.optical-illusion-7 .circles-container:nth-child(16) .circle:nth-child(20) {
+  transform: rotate(1840deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(1) {
+  transform: rotate(97deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(2) {
+  transform: rotate(194deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(3) {
+  transform: rotate(291deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(4) {
+  transform: rotate(388deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(5) {
+  transform: rotate(485deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(6) {
+  transform: rotate(582deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(7) {
+  transform: rotate(679deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(8) {
+  transform: rotate(776deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(9) {
+  transform: rotate(873deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(10) {
+  transform: rotate(970deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(11) {
+  transform: rotate(1067deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(12) {
+  transform: rotate(1164deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(13) {
+  transform: rotate(1261deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(14) {
+  transform: rotate(1358deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(15) {
+  transform: rotate(1455deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(16) {
+  transform: rotate(1552deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(17) {
+  transform: rotate(1649deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(18) {
+  transform: rotate(1746deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(19) {
+  transform: rotate(1843deg);
+}
+.optical-illusion-7 .circles-container:nth-child(17) .circle:nth-child(20) {
+  transform: rotate(1940deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(1) {
+  transform: rotate(102deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(2) {
+  transform: rotate(204deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(3) {
+  transform: rotate(306deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(4) {
+  transform: rotate(408deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(5) {
+  transform: rotate(510deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(6) {
+  transform: rotate(612deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(7) {
+  transform: rotate(714deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(8) {
+  transform: rotate(816deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(9) {
+  transform: rotate(918deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(10) {
+  transform: rotate(1020deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(11) {
+  transform: rotate(1122deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(12) {
+  transform: rotate(1224deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(13) {
+  transform: rotate(1326deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(14) {
+  transform: rotate(1428deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(15) {
+  transform: rotate(1530deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(16) {
+  transform: rotate(1632deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(17) {
+  transform: rotate(1734deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(18) {
+  transform: rotate(1836deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(19) {
+  transform: rotate(1938deg);
+}
+.optical-illusion-7 .circles-container:nth-child(18) .circle:nth-child(20) {
+  transform: rotate(2040deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(1) {
+  transform: rotate(107deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(2) {
+  transform: rotate(214deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(3) {
+  transform: rotate(321deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(4) {
+  transform: rotate(428deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(5) {
+  transform: rotate(535deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(6) {
+  transform: rotate(642deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(7) {
+  transform: rotate(749deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(8) {
+  transform: rotate(856deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(9) {
+  transform: rotate(963deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(10) {
+  transform: rotate(1070deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(11) {
+  transform: rotate(1177deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(12) {
+  transform: rotate(1284deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(13) {
+  transform: rotate(1391deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(14) {
+  transform: rotate(1498deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(15) {
+  transform: rotate(1605deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(16) {
+  transform: rotate(1712deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(17) {
+  transform: rotate(1819deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(18) {
+  transform: rotate(1926deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(19) {
+  transform: rotate(2033deg);
+}
+.optical-illusion-7 .circles-container:nth-child(19) .circle:nth-child(20) {
+  transform: rotate(2140deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(1) {
+  transform: rotate(112deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(2) {
+  transform: rotate(224deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(3) {
+  transform: rotate(336deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(4) {
+  transform: rotate(448deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(5) {
+  transform: rotate(560deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(6) {
+  transform: rotate(672deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(7) {
+  transform: rotate(784deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(8) {
+  transform: rotate(896deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(9) {
+  transform: rotate(1008deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(10) {
+  transform: rotate(1120deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(11) {
+  transform: rotate(1232deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(12) {
+  transform: rotate(1344deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(13) {
+  transform: rotate(1456deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(14) {
+  transform: rotate(1568deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(15) {
+  transform: rotate(1680deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(16) {
+  transform: rotate(1792deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(17) {
+  transform: rotate(1904deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(18) {
+  transform: rotate(2016deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(19) {
+  transform: rotate(2128deg);
+}
+.optical-illusion-7 .circles-container:nth-child(20) .circle:nth-child(20) {
+  transform: rotate(2240deg);
+}/*# sourceMappingURL=optical-illusion-7.css.map */

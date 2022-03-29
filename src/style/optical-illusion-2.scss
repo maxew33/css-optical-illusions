@@ -1,0 +1,73 @@
+.optical-illusion-2 {
+    height: 90vmin;
+    width: 90vmin;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    .circle-container {
+        height: 45vmin;
+        width: 45vmin;
+        position: relative;
+    }
+
+    .center-circle {
+        position: absolute;
+        height: 8vmin;
+        width: 8vmin;
+        background: hsl(0deg, 80%, 50%);
+        top: 18.5vmin;
+        left: 18.5vmin;
+        border-radius: 100vmin;
+    }
+
+    .around-circle-container {
+        position: absolute;
+        height: 50%;
+        width: 50%;
+        top: 25%;
+        left: 0;
+        transform-origin: center right;
+        display: grid;
+        place-content: center;
+        padding-right: 5vmin;
+
+        .bothering-ball {
+            height: 12.5vmin;
+            width: 12.5vmin;
+            background: hsl(30deg, 80%, 50%);
+            border-radius: 999px;
+            animation: bother 3s linear alternate infinite;
+        }
+    }
+
+    .first-container {
+        .bothering-ball {
+            animation-delay: -1.5s;
+        }
+    }
+
+    .second-container {
+        .bothering-ball {
+            animation-delay: 1.5s;
+        }
+    }
+
+    @keyframes bother {
+        0%,
+        33% {
+            transform: translateX(0) scale(1);
+        }
+
+        66%,
+        100% {
+            transform: translateX(7.5vmin) scale(0.35);
+        }
+    }
+
+    @for $i from 2 through 7 {
+        .around-circle-container:nth-child(#{$i}) {
+            transform: rotate(30deg + (60deg * $i));
+        }
+    }
+}
