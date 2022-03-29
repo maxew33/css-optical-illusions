@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+h1{
+  font-family: 'Courgette', cursive;
+  color: #ddd;
+  font-size: 3.5vmin;
+  height: 7.5vmin;
+  line-height: 7.5vmin;
+  text-align: center;
+}
+
+.App{
+  height: 100vh;
+  width: 100vw;
+  background: #97acee;  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    border: none;
+    border-radius: 2.5vmin;
+    padding: 1vmin;
+    font-size: 2.5vmin;
+    cursor: pointer;
+    transition: transform .125s ease-in;
+
+    &:hover{
+        transform: scale(1.25);
+        font-weight: bolder;
+    }
+}

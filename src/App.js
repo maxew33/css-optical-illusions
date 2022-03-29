@@ -20,14 +20,14 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => handleClick(-1)}>prev</button>
+      <button onClick={() => handleClick(-1)}>←</button>
       
       <main>
         <h1>Optical illusion #{myIllusion+1} : {opticalIllusions[myIllusion].name}</h1>
         {opticalIllusions[myIllusion].comp}
       </main>
  
-      <button onClick={() => handleClick(-1)}>next</button>
+      <button onClick={() => handleClick(1)}>→</button>
     </div>
   );
 }

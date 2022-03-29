@@ -6,6 +6,7 @@
   width: 90vmin;
   background: #97acee;
   padding: 0 5vmin;
+  overflow: hidden;
 }
 .optical-illusion-5 .vertical-lines {
   height: 90vmin;

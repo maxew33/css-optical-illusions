@@ -30,13 +30,12 @@
         transform-origin: center right;
         display: grid;
         place-content: center;
-        padding-right: 5vmin;
 
         .bothering-ball {
-            height: 12.5vmin;
-            width: 12.5vmin;
+            height: 7.5vmin;
+            width: 7.5vmin;
             background: hsl(30deg, 80%, 50%);
-            border-radius: 999px;
+            border-radius: 100%;
             animation: bother 3s linear alternate infinite;
         }
     }
@@ -61,7 +60,7 @@
 
         66%,
         100% {
-            transform: translateX(7.5vmin) scale(0.35);
+            transform: translateX(5vmin) scale(0.35);
         }
     }
 

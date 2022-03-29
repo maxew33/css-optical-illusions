@@ -28,13 +28,12 @@
   transform-origin: center right;
   display: grid;
   place-content: center;
-  padding-right: 5vmin;
 }
 .optical-illusion-2 .around-circle-container .bothering-ball {
-  height: 12.5vmin;
-  width: 12.5vmin;
+  height: 7.5vmin;
+  width: 7.5vmin;
   background: #e6801a;
-  border-radius: 999px;
+  border-radius: 100%;
   -webkit-animation: bother 3s linear alternate infinite;
           animation: bother 3s linear alternate infinite;
 }
@@ -51,7 +50,7 @@
     transform: translateX(0) scale(1);
   }
   66%, 100% {
-    transform: translateX(7.5vmin) scale(0.35);
+    transform: translateX(5vmin) scale(0.35);
   }
 }
 @keyframes bother {
@@ -59,7 +58,7 @@
     transform: translateX(0) scale(1);
   }
   66%, 100% {
-    transform: translateX(7.5vmin) scale(0.35);
+    transform: translateX(5vmin) scale(0.35);
   }
 }
 .optical-illusion-2 .around-circle-container:nth-child(2) {
